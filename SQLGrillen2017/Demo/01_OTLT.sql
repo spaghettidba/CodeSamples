@@ -1,7 +1,7 @@
 -- =============================================
 -- Author:      Gianluca Sartori - @spaghettidba
 -- Create date: 2016-09-07
--- Description: Setup
+-- Description: Creates the One True Lookup Table
 -- =============================================
 USE tempdb;
 GO
@@ -12,57 +12,48 @@ IF OBJECT_ID('Countries')        IS NOT NULL DROP TABLE Countries;
 IF OBJECT_ID('States')           IS NOT NULL DROP TABLE States;
 IF OBJECT_ID('Order_Status')     IS NOT NULL DROP TABLE Order_Status;
 IF OBJECT_ID('Order_Priorities') IS NOT NULL DROP TABLE Order_Priorities;
+IF OBJECT_ID('LookupTable')      IS NOT NULL DROP TABLE LookupTable;
 GO
 
-CREATE TABLE Countries (
-	country_id char(3) PRIMARY KEY,
-	description nvarchar(50) NOT NULL
+CREATE TABLE LookupTable (
+	table_name sysname,
+	lookup_code nvarchar(500),
+	lookup_description nvarchar(4000),
+	PRIMARY KEY CLUSTERED(table_name, lookup_code),
+	CHECK(
+		CASE 
+			WHEN table_name = 'states'     AND lookup_code LIKE '[A-Z][A-Z]'      THEN 1
+			WHEN table_name = 'priorities' AND lookup_code LIKE '[0-8]'           THEN 1
+			WHEN table_name = 'countries'  AND lookup_code LIKE '[A-Z][A-Z][A-Z]' THEN 1
+			WHEN table_name = 'status'     AND lookup_code LIKE '[A-Z][A-Z]'      THEN 1
+			ELSE 0
+		END = 1
+	)
 )
 GO
 
-CREATE TABLE States (
-	state_id char(2) PRIMARY KEY,
-	description nvarchar(50) NOT NULL
-)
-GO
-
-CREATE TABLE Order_Status (
-	status_id char(2) PRIMARY KEY,
-	description nvarchar(50) NOT NULL
-)
-GO
-
-CREATE TABLE Order_Priorities (
-	priority_id tinyint PRIMARY KEY,
-	description nvarchar(50) NOT NULL
-)
-GO
-
-INSERT INTO Countries VALUES 
-	('ITA',N'Italy'), 
-	('DEN',N'Denmark'), 
-	('SLO',N'Slovenia'), 
-    ('USA',N'United States Of America');
-
-INSERT INTO States VALUES 
-	('TV', N'Treviso'),
-	('PN', N'Pordenone'),
-	('NY', N'New York'),
-	('WA', N'Washington'),
-	('CO', N'Colorado');
-
-INSERT INTO Order_Status VALUES 
-	('CO', N'Confirmed'),
-	('IN', N'Inserted'),
-	('AN', N'Canceled'),
-	('SO', N'Suspended');
-
-INSERT INTO Order_Priorities VALUES 
-	(1, N'Highest'),
-	(2, N'High'),
-	(3, N'Normal'),
-	(4, N'Low');
-
+INSERT INTO LookupTable 
+	(table_name, lookup_code, lookup_description)
+VALUES 
+	('countries','ITA','Italy'),
+	('countries','DEN','Denmark'),
+	('countries','SLO','Slovenia'),
+	--
+	('states','TV','Treviso'),
+	('states','PN','Pordenone'),
+	('states','NY','New York'),
+	('states','WA','Washington'),
+	('states','CO','Colorado'),
+	--
+	('priorities','1','Highest'),
+	('priorities','2','High'),
+	('priorities','3','Normal'),
+	('priorities','4','Low'),
+	--
+	('status','CO','Confirmed'),
+	('status','IN','Inserted'),
+	('status','AN','Canceled'),
+	('status','SO','Suspended');
 
 
 
@@ -72,8 +63,8 @@ CREATE TABLE Customers (
 	,address       NVARCHAR(50)   NOT NULL
 	,ZIP           CHAR(5)        NOT NULL
 	,city          NVARCHAR(50)   NOT NULL
-	,state_id      CHAR(2)        NOT NULL FOREIGN KEY REFERENCES States(state_id)
-	,country_id    CHAR(3)        NOT NULL FOREIGN KEY REFERENCES Countries(country_id)
+	,state_id      CHAR(2)        NOT NULL --FOREIGN KEY ??
+	,country_id    CHAR(3)        NOT NULL --FOREIGN KEY ??
 )
 GO
 
@@ -82,8 +73,8 @@ CREATE TABLE Orders (
 	 order_id      INT            NOT NULL PRIMARY KEY CLUSTERED
 	,order_date    DATETIME       NOT NULL 
 	,customer_id   INT            NOT NULL FOREIGN KEY REFERENCES Customers(customer_id)
-	,status_id     CHAR(2)        NOT NULL FOREIGN KEY REFERENCES Order_status(status_id)
-	,priority_id   TINYINT        NOT NULL FOREIGN KEY REFERENCES Order_priorities(priority_id)
+	,status_id     CHAR(2)        NOT NULL --FOREIGN KEY ??
+	,priority_id   TINYINT        NOT NULL --FOREIGN KEY ??
 )
 GO
 
@@ -103,6 +94,7 @@ INSERT INTO Orders VALUES
 	(7, '20160912', 2, 'IN', 1);
 GO
 
+SELECT * FROM LookupTable;
 
 SELECT * FROM Customers;
 
