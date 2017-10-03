@@ -1,0 +1,74 @@
+e:\Progetti\DBAdmin_VSS\ReplayXESession\ReplayXESession\bin\Debug\ReplayXESession.exe.config
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe.config
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csprojResolveAssemblyReference.cache
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Properties.Resources.resources
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Scripts.resources
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csproj.GenerateResource.Cache
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.pdb
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.exe
+D:\Documenti\Conferenze\SQLSaturday356\Demo\Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.pdb
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe.config
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.exe
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.pdb
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.pdb
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Properties.Resources.resources
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Scripts.resources
+D:\Documenti\Conferenze\SQLSaturday356\Demo\3. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csproj.GenerateResource.Cache
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe.config
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.exe
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.pdb
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.pdb
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csprojResolveAssemblyReference.cache
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Properties.Resources.resources
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Scripts.resources
+D:\Documenti\Conferenze\SQLSaturday414\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csproj.GenerateResource.Cache
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe.config
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.exe
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.pdb
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.pdb
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csprojResolveAssemblyReference.cache
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Properties.Resources.resources
+C:\SQLSat496Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csproj.GenerateResource.Cache
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe.config
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.exe
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.pdb
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csprojResolveAssemblyReference.cache
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Properties.Resources.resources
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csproj.GenerateResource.Cache
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.pdb
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+Y:\odrive\File Server\Gianluca Sartori\DATA\Documenti\Conferenze\SQLNexus\Demo\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe.config
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.exe
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.pdb
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.pdb
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csprojResolveAssemblyReference.cache
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Properties.Resources.resources
+C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csproj.GenerateResource.Cache

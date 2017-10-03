@@ -1,0 +1,4 @@
+D:\Documenti\Conferenze\SQLSaturday356\Demo\DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.csprojResolveAssemblyReference.cache
+D:\Documenti\Conferenze\SQLSaturday356\Demo\DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.LiveData.resources
+D:\Documenti\Conferenze\SQLSaturday356\Demo\DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.Properties.Resources.resources
+D:\Documenti\Conferenze\SQLSaturday356\Demo\DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.csproj.GenerateResource.Cache
