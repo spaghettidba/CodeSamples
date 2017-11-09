@@ -1,0 +1,1 @@
+start /d "C:\Program Files\PAL\PAL\" PALWizard.exe
