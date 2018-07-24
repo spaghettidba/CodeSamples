@@ -1,0 +1,1 @@
+Slides and code samples for "Responding to Extended Events in near real-time"
