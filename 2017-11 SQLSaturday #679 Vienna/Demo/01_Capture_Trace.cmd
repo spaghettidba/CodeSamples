@@ -1,1 +1,0 @@
-explorer /select,"C:\Program Files\Microsoft Corporation\RMLUtils\Samples\Samples.cab\TraceCaptureDef.sql"
