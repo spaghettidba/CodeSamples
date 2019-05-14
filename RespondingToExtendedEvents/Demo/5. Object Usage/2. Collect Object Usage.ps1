@@ -1,13 +1,13 @@
 sl $Env:Temp
  
 #For SQL Server 2014:
-Add-Type -Path 'C:\Program Files\Microsoft SQL Server\120\Shared\Microsoft.SqlServer.XE.Core.dll'
-Add-Type -Path 'C:\Program Files\Microsoft SQL Server\120\Shared\Microsoft.SqlServer.XEvent.Linq.dll'
+Add-Type -Path 'C:\Program Files\Microsoft SQL Server\150\Shared\Microsoft.SqlServer.XE.Core.dll'
+Add-Type -Path 'C:\Program Files\Microsoft SQL Server\150\Shared\Microsoft.SqlServer.XEvent.Linq.dll'
 
 #For SQL Server 2012:
 #Add-Type -Path 'C:\Program Files\Microsoft SQL Server\110\Shared\Microsoft.SqlServer.XEvent.Linq.dll'
  
-$connectionString = 'Data Source = (local)\SQL2014; Initial Catalog = master; Integrated Security = SSPI'
+$connectionString = 'Data Source = SQL2019; Initial Catalog = master; Integrated Security = SSPI'
  
 $SessionName = "audit_table_usage"
  

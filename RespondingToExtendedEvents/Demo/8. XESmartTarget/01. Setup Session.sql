@@ -5,6 +5,7 @@ GO
 
 CREATE EVENT SESSION [test_session] ON SERVER 
 	ADD EVENT sqlserver.checkpoint_begin,
+	ADD EVENT sqlserver.xml_deadlock_report,
 	ADD EVENT sqlserver.sql_batch_completed(
 		ACTION(sqlserver.database_id,sqlserver.is_system)
 		WHERE ([sqlserver].[database_id]>(4) 

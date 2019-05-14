@@ -25,7 +25,7 @@ namespace DisplayEvents
 
         private void InitializeXESession()
         {
-            string ConnectionString = @"Integrated Security=SSPI;Initial Catalog=master;Data Source=(local)\SQL2014";
+            string ConnectionString = @"Integrated Security=SSPI;Initial Catalog=master;Data Source=SQL2019";
             QueryableXEventData eventstream = new QueryableXEventData(
                 ConnectionString, 
                 "XERMLCapture",

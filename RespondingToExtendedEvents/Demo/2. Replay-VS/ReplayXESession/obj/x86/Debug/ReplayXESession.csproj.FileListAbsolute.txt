@@ -60,15 +60,6 @@ C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.pd
 C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.exe
 C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\ReplayXESession.pdb
 C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Smo.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XE.Core.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
-C:\demo\XERealTime\2. Replay-VS\ReplayXESession\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
 C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csprojResolveAssemblyReference.cache
 C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.Properties.Resources.resources
 C:\demo\XERealTime\2. Replay-VS\ReplayXESession\obj\x86\Debug\ReplayXESession.csproj.GenerateResource.Cache

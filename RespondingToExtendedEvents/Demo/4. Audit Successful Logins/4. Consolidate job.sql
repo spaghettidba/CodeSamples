@@ -67,3 +67,6 @@ QuitWithRollback:
 EndSave:
 
 GO
+
+EXEC msdb.dbo.sp_start_job @job_name = 'DBA_CONSOLIDATE_AUDIT_LOGIN'
+GO

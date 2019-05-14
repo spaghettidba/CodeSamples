@@ -2,3 +2,13 @@ D:\Documenti\Conferenze\SQLSaturday356\Demo\DisplayEvents\DisplayEvents\obj\Debu
 D:\Documenti\Conferenze\SQLSaturday356\Demo\DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.LiveData.resources
 D:\Documenti\Conferenze\SQLSaturday356\Demo\DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.Properties.Resources.resources
 D:\Documenti\Conferenze\SQLSaturday356\Demo\DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.csproj.GenerateResource.Cache
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.csprojResolveAssemblyReference.cache
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.LiveData.resources
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.Properties.Resources.resources
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.csproj.GenerateResource.Cache
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\bin\Debug\DisplayEvents.exe.config
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\bin\Debug\DisplayEvents.exe
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\bin\Debug\DisplayEvents.pdb
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.exe
+C:\demo\XERealTime\1. DisplayEvents\DisplayEvents\obj\Debug\DisplayEvents.pdb

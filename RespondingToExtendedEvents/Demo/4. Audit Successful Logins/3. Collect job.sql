@@ -105,3 +105,6 @@ EndSave:
 
 GO
 
+
+EXEC msdb.dbo.sp_start_job @job_name = 'DBA_COLLECT_AUDIT_LOGIN'
+GO

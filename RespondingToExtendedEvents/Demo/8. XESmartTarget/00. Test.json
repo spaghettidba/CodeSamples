@@ -5,15 +5,30 @@
         "Responses": [
             {
                 "__type": "TableAppenderResponse",
-                "TargetServer": "(local)",
-                "TargetDatabase": "XESmartTargetTest",
-                "TargetTable": "test_session_data",
+                "ServerName": "(local)",
+                "DatabaseName": "XESmartTargetTest",
+                "TableName": "test_session_data",
                 "AutoCreateTargetTable": true,
                 "UploadIntervalSeconds": 10,
                 "Events": [
                     "sql_batch_completed"
                 ]
+            },
+            {
+                "__type": "EmailResponse",
+                "SMTPServer": "localhost",
+                "Sender": "SQLDEMO@localhost",
+                "To": "dba@localhost",
+                "Subject": "Deadlock occurred",
+                "Body": "Deadlock occurred",
+                "Attachment": "xml_report",
+                "AttachmentFileName": "deadlock.xdl",
+                "HTMLFormat": true,
+                "Events": [
+                    "xml_deadlock_report"
+                ]
             }
+ 
         ]
     }
 }
