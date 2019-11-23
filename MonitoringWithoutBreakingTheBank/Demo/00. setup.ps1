@@ -1,0 +1,2 @@
+Stop-Service influxdb
+Stop-Service telegraf_sqlserver
