@@ -4,7 +4,7 @@
 # Download and install Chronograf
 #
 
-$tmp = Join-Path -Path $env:TEMP -ChildPath "chronograf.zip"
+$tmp = Join-Path -Path C:\temp\ -ChildPath "chronograf.zip"
 Invoke-WebRequest -Uri https://dl.influxdata.com/chronograf/releases/chronograf-1.7.14_windows_amd64.zip -OutFile $tmp
 Expand-Archive -Path $tmp -DestinationPath c:\tick -Force
 

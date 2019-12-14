@@ -1,0 +1,1 @@
+powershell_ise "00. setup.ps1","01. influxdb.ps1","02. NSSN.ps1","03. telegraf.ps1","04. chronograf.ps1","05. grafana.ps1","06. kapacitor.ps1"

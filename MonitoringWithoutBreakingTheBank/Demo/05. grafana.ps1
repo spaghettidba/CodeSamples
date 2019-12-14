@@ -4,8 +4,8 @@
 # Download and install Grafana
 #
 
-$tmp = Join-Path -Path $env:TEMP -ChildPath "grafana.zip"
-Invoke-WebRequest -Uri https://dl.grafana.com/oss/release/grafana-6.4.4.windows-amd64.zip -OutFile $tmp
+$tmp = Join-Path -Path C:\temp\ -ChildPath "grafana.zip"
+Invoke-WebRequest -Uri http://dl.grafana.com/oss/release/grafana-6.4.4.windows-amd64.zip -OutFile $tmp
 Expand-Archive -Path $tmp -DestinationPath c:\tick -Force
 
 # create a config file

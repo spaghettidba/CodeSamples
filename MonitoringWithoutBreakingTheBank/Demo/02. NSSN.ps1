@@ -4,9 +4,9 @@
 # Download and install NSSM
 #
 
-$tmp = Join-Path -Path $env:TEMP -ChildPath "nssm.zip"
-Invoke-WebRequest -Uri https://nssm.cc/release/nssm-2.24.zip -OutFile $tmp
-Expand-Archive -Path $tmp -DestinationPath c:\tick
+$tmp = Join-Path -Path C:\temp\ -ChildPath "nssm.zip"
+Invoke-WebRequest -Uri http://nssm.cc/release/nssm-2.24.zip -OutFile $tmp
+Expand-Archive -Path $tmp -DestinationPath c:\tick -Force
 
 
 # create a service for influxdb
