@@ -1,0 +1,127 @@
+{
+    "Target": {
+        "ServerName": "$ServerName",
+        "SessionName": "Recipe09",
+        "FailOnProcessingError": false,
+        "Responses": [
+            {
+                "__type": "TelegrafAppenderResponse",
+                "Events": [
+                    "error_reported"
+                ],
+                "OutputMeasurement": "sqlserver_events_errors",
+                "OutputTags": [
+                    "server_instance_name",
+                    "name", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "client_hostname", 
+                    "database_name",
+                    "severity",
+                    "error_number"
+                ],
+                "OutputFields": [
+                    "event_sequence",
+                    "message"
+                ]
+            },
+            {
+                "__type": "TelegrafAppenderResponse",
+                "Events": [
+                    "sql_batch_completed"
+                ],
+                "OutputMeasurement": "sqlserver_events_timeouts",
+                "OutputTags": [
+                    "server_instance_name",
+                    "name", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "client_hostname", 
+                    "database_name"
+                ],
+                "OutputFields": [
+                    "event_sequence",
+                    "sql_text AS batch_text",
+                    "cpu_time",
+                    "duration",
+                    "logical_reads",
+                    "physical_reads",
+                    "writes",
+                    "query_hash",
+                    "row_count"
+                ]
+            },
+            {
+                "__type": "TelegrafAppenderResponse",
+                "Events": [
+                    "rpc_completed"
+                ],
+                "OutputMeasurement": "sqlserver_events_timeouts",
+                "OutputTags": [
+                    "server_instance_name",
+                    "name", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "client_hostname", 
+                    "database_name"
+                ],
+                "OutputFields": [
+                    "event_sequence",
+                    "sql_text AS statement",
+                    "cpu_time",
+                    "duration",
+                    "logical_reads",
+                    "physical_reads",
+                    "writes",
+                    "query_hash",
+                    "row_count"
+                ]
+            },
+            {
+                "__type": "TelegrafAppenderResponse",
+                "Events": [
+                    "xml_deadlock_report"
+                ],
+                "OutputMeasurement": "sqlserver_events_deadlocks",
+                "OutputTags": [
+                    "server_instance_name",
+                    "name", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "client_hostname", 
+                    "database_name"
+                ],
+                "OutputFields": [
+                    "event_sequence",
+                    "session_id",
+                    "xml_report"
+                ]
+            },
+            {
+                "__type": "TelegrafAppenderResponse",
+                "Events": [
+                    "blocked_process_report"
+                ],
+                "OutputMeasurement": "sqlserver_events_blocking",
+                "OutputTags": [
+                    "server_instance_name",
+                    "name", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "client_hostname", 
+                    "database_name"
+                ],
+                "OutputFields": [
+                    "event_sequence",
+                    "blocked_process",
+                    "duration",
+                    "index_id",
+                    "lock_mode",
+                    "object_id",
+                    "resource_owner_type",
+                    "transaction_id"
+                ]
+            }
+        ]
+    }
+}

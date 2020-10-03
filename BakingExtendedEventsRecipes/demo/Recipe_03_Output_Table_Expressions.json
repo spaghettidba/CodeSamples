@@ -1,0 +1,47 @@
+{
+    "Target": {
+        "ServerName": "$ServerName",
+        "SessionName": "Recipe03",
+        "FailOnProcessingError": false,
+        "Responses": [
+            {
+                "__type": "TableAppenderResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "XERecipes",
+                "TableName": "Recipe_03_Queries",
+                "AutoCreateTargetTable": false,
+                "OutputColumns": [
+                    "name", 
+                    "collection_time", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "database_name",
+                    "sql AS statement",
+                    "total_io AS logical_reads + writes"
+                ],
+                "Events": [
+                    "rpc_completed"
+                ]
+            },
+            {
+                "__type": "TableAppenderResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "XERecipes",
+                "TableName": "Recipe_03_Queries",
+                "AutoCreateTargetTable": false,
+                "OutputColumns": [
+                    "name", 
+                    "collection_time", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "database_name",
+                    "sql AS batch_text",
+                    "total_io AS logical_reads + writes"
+                ],
+                "Events": [
+                    "sql_batch_completed"
+                ]
+            }
+        ]
+    }
+}

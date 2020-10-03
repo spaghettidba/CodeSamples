@@ -1,0 +1,20 @@
+{
+    "Target": {
+        "ServerName": "$ServerName",
+        "SessionName": "Recipe05",
+        "FailOnProcessingError": false,
+        "Responses": [
+            {
+                "__type": "ExecuteTSQLResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "master",
+                "TSQL": "EXEC killBlocker {transaction_id}",  // the notation {propertyname} is used to 
+                                                              // include fields and actiond from the events
+                "Events": [
+                    "blocked_process_report"
+                ],
+                "Filter": "duration > 20000000 " // 20 seconds
+            }
+        ]
+    }
+}

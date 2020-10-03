@@ -1,0 +1,27 @@
+{
+    "Target": {
+        "ServerName": "$ServerName",
+        "SessionName": "Recipe01",
+        "FailOnProcessingError": false,
+        "Responses": [
+            {
+                "__type": "CsvAppenderResponse",
+                "OutputFile": "c:\\temp\\output.csv",
+                "OverWrite": "true",
+                "OutputColumns": [
+                    "name", 
+                    "collection_time", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "database_name",
+                    "batch_text",
+                    "statement"
+                ],
+                "Events": [
+                    "rpc_completed",
+                    "sql_batch_completed"
+                ]
+            }
+        ]
+    }
+}

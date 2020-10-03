@@ -1,0 +1,45 @@
+{
+    "Target": {
+        "ServerName": "$ServerName",
+        "SessionName": "Recipe07",
+        "FailOnProcessingError": false,
+        "Responses": [
+            {
+                "__type": "GroupedTableAppenderResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "XERecipes",
+                "TableName": "Recipe_07_TableAudit",
+                "AutoCreateTargetTable": false,
+                "OutputColumns": [
+                    "client_app_name",
+                    "database_id",
+                    "object_id",
+                    "MAX(collection_time) AS last_read", 
+                    "COUNT(collection_time) AS read_count" 
+                ],
+                "Events": [
+                    "lock_acquired"
+                ],
+                "Filter": "mode NOT IN ('X','IX')"
+            },
+            {
+                "__type": "GroupedTableAppenderResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "XERecipes",
+                "TableName": "Recipe_07_TableAudit",
+                "AutoCreateTargetTable": false,
+                "OutputColumns": [
+                    "client_app_name",
+                    "database_id",
+                    "object_id",
+                    "MAX(collection_time) AS last_write", 
+                    "COUNT(collection_time) AS write_count" 
+                ],
+                "Events": [
+                    "lock_acquired"
+                ],
+                "Filter": "mode IN ('X','IX')"
+            }
+        ]
+    }
+}

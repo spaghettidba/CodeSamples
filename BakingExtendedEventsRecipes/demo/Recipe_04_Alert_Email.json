@@ -1,0 +1,60 @@
+{
+    "Target": {
+        "ServerName": "$ServerName",
+        "SessionName": "Recipe04",
+        "FailOnProcessingError": false,
+        "Responses": [
+            {
+                "__type": "TableAppenderResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "XERecipes",
+                "TableName": "Recipe_04_Deadlocking",
+                "AutoCreateTargetTable": false,
+                "OutputColumns": [
+                    "name", 
+                    "collection_time", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "database_name",
+                    "xml_report"
+                ],
+                "Events": [
+                    "xml_deadlock_report"
+                ]
+            },
+            {
+                "__type": "TableAppenderResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "XERecipes",
+                "TableName": "Recipe_04_Blocking",
+                "AutoCreateTargetTable": false,
+                "OutputColumns": [
+                    "name", 
+                    "collection_time", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "database_name",
+                    "sql_text",
+                    "blocked_process"
+                ],
+                "Events": [
+                    "blocked_process_report"
+                ]
+            },
+            {
+                "__type": "EmailResponse",
+                "SMTPServer": "localhost",
+                "Sender": "demo@localhost",
+                "To": "dba@localhost",
+                "Subject": "Deadlock occurred",
+                "Body": "Oh no! We got a deadlock!",
+                "Attachment": "xml_report",
+                "AttachmentFileName": "deadlock.xdl",
+                "HTMLFormat": true,
+                "Events": [
+                    "xml_deadlock_report"
+                ]
+            }
+        ]
+    }
+}

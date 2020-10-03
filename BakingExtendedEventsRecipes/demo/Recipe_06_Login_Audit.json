@@ -1,0 +1,27 @@
+{
+    "Target": {
+        "ServerName": "$ServerName",
+        "SessionName": "Recipe06",
+        "FailOnProcessingError": false,
+        "Responses": [
+            {
+                "__type": "GroupedTableAppenderResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "XERecipes",
+                "TableName": "Recipe_06_LoginAudit",
+                "AutoCreateTargetTable": false,
+                "OutputColumns": [
+                    "server_principal_name",
+                    "database_name",
+                    "client_app_name",
+                    "MIN(collection_time) AS first_seen", 
+                    "MAX(collection_time) AS last_seen", 
+                    "COUNT(collection_time) AS logon_count" 
+                ],
+                "Events": [
+                    "login"
+                ]
+            }
+        ]
+    }
+}

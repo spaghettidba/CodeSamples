@@ -1,0 +1,31 @@
+{
+    "Target": {
+        "ServerName": "$ServerName",
+        "SessionName": "Recipe08",
+        "FailOnProcessingError": false,
+        "Responses": [
+            {
+                "__type": "GroupedTableAppenderResponse",
+                "ServerName": "$ServerName",
+                "DatabaseName": "XERecipes",
+                "TableName": "Recipe_08_WorkloadAnalysis",
+                "AutoCreateTargetTable": false,
+                "OutputColumns": [
+                    "snapshot_id AS SUBSTRING(CONVERT(collection_time,'System.String'),1,16)", 
+                    "client_app_name", 
+                    "server_principal_name", 
+                    "database_name",
+                    "SUM(cpu_time) AS tot_cpu",
+                    "SUM(duration) AS tot_duration",
+                    "SUM(logical_reads) AS tot_reads",
+                    "SUM(writes) AS tot_writes",
+                    "COUNT(collection_time) AS execution_count"
+                ],
+                "Events": [
+                    "rpc_completed",
+                    "sql_batch_completed"
+                ]
+            }
+        ]
+    }
+}
