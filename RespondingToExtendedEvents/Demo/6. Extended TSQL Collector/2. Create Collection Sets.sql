@@ -7,6 +7,14 @@ GO
 EXEC sp_configure 'blocked process threshold (s)', 20
 RECONFIGURE
 GO
+
+DECLARE @retVal int, @collection_set_id int, @name sysname;
+SET @name = 'Blocking and deadlocking'
+EXEC @retVal = msdb.dbo.sp_syscollector_verify_collection_set @collection_set_id OUTPUT, @name OUTPUT
+IF (@retVal <> 0)
+BEGIN
+	PRINT 'Not exists'
+
  
 BEGIN TRANSACTION
 BEGIN TRY
@@ -123,5 +131,11 @@ BEGIN CATCH
     RAISERROR (14684, @ErrorSeverity, 1 , @ErrorNumber, @ErrorSeverity, @ErrorState, @ErrorProcedure, @ErrorLine, @ErrorMessage);
  
 END CATCH;
+
+END
+ELSE 
+BEGIN
+	EXEC [msdb].[dbo].[sp_syscollector_start_collection_set] @name = 'Blocking and deadlocking'
+END
  
 GO

@@ -1,0 +1,1 @@
+EXEC [msdb].[dbo].[sp_syscollector_stop_collection_set] @name = 'Blocking and deadlocking'

@@ -1,7 +1,7 @@
-SELECT TOP(10) *
+SELECT TOP(3) *
 FROM TOOLS.dbo.AuditLogin_Staging
 ORDER BY event_date DESC
 
 
-SELECT *
+SELECT TOP(3) *
 FROM TOOLS.dbo.AuditLogin

@@ -1,9 +1,11 @@
-:CONNECT (local)\SQL2014
+:CONNECT SQL2019
 
-SELECT TOP 10 * FROM replayDB.dbo.testNumbers ORDER BY num DESC;
+SET NOCOUNT ON
+SELECT TOP 5 * FROM replayDB.dbo.testNumbers ORDER BY num DESC;
 GO
 
-:CONNECT (local)\SQL2016
+:CONNECT SQL2016
 
-SELECT TOP 10 * FROM replayDB.dbo.testNumbers ORDER BY num DESC
+SET NOCOUNT ON
+SELECT TOP 5 * FROM replayDB.dbo.testNumbers ORDER BY num DESC
 GO
