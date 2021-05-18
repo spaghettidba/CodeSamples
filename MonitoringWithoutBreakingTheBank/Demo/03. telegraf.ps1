@@ -5,8 +5,14 @@
 #
 
 $tmp = Join-Path -Path C:\temp\ -ChildPath "telegraf.zip"
-Invoke-WebRequest -Uri https://dl.influxdata.com/telegraf/releases/telegraf-1.12.6_windows_amd64.zip -OutFile $tmp
+[Net.ServicePointManager]::SecurityProtocol = "Tls12, Tls11, Tls, Ssl3"
+Invoke-WebRequest -Uri https://dl.influxdata.com/telegraf/releases/telegraf-1.16.0_windows_amd64.zip -OutFile $tmp
 Expand-Archive -Path $tmp -DestinationPath c:\tick -Force
+
+# Rename folder 
+if(Test-Path c:\tick\telegraf) { Remove-Item c:\tick\telegraf -Recurse }
+Get-Item c:\tick\telegraf* | Rename-Item -NewName telegraf
+
 
 
 # generate the full configuration and write it to a file
@@ -42,7 +48,7 @@ c:\tick\telegraf\telegraf.exe --service start --service-name=telegraf_sqlserver
 
 
 # check collected data
-start-process C:\tick\influxdb-1.7.9-1\influx.exe
+start-process C:\tick\influxdb\influx.exe
 
 
 # copy / paste this:

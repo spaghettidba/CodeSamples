@@ -4,17 +4,21 @@
 # Download and install Grafana
 #
 
-$tmp = Join-Path -Path C:\temp\ -ChildPath "grafana.zip"
-Invoke-WebRequest -Uri http://dl.grafana.com/oss/release/grafana-6.4.4.windows-amd64.zip -OutFile $tmp
-Expand-Archive -Path $tmp -DestinationPath c:\tick -Force
+
+$tmp = Join-Path -Path C:\temp\ -ChildPath "grafana.msi"
+Invoke-WebRequest -Uri http://dl.grafana.com/oss/release/grafana-7.1.5.windows-amd64.msi -OutFile $tmp
+Invoke-Item $tmp
+
+#By default we get a service: let's stop it
+Stop-Service -Name "Grafana"
 
 # create a config file
-Copy-Item -Path C:\tick\grafana-6.4.4\conf\defaults.ini -Destination C:\tick\grafana-6.4.4\conf\custom.ini
+Copy-Item -Path "C:\Program Files\GrafanaLabs\grafana\conf\defaults.ini" -Destination "C:\Program Files\GrafanaLabs\grafana\conf\custom.ini"
 # open and change port to 8080
-code C:\tick\grafana-6.4.4\conf\custom.ini
+code "C:\Program Files\GrafanaLabs\grafana\conf\custom.ini"
 
 # start grafana
-start-process C:\tick\grafana-6.4.4\bin\grafana-server.exe -ArgumentList @("-config","C:\tick\grafana-6.4.4\conf\custom.ini","-homepath","C:\tick\grafana-6.4.4")
+start-process "C:\Program Files\GrafanaLabs\grafana\bin\grafana-server.exe" -ArgumentList @('-config','"C:\Program Files\GrafanaLabs\grafana\conf\custom.ini"','-homepath','"C:\Program Files\GrafanaLabs\grafana"')
 
 # open browser and connect
 start-process http://localhost:8080
@@ -27,5 +31,5 @@ start-process https://grafana.com/grafana/dashboards/9386
 
 # install piechart panel
 # remember to restart grafana!
-start-process C:\tick\grafana-6.4.4\bin\grafana-cli.exe -ArgumentList @("plugins","install","grafana-piechart-panel") -WorkingDirectory C:\tick\grafana-6.4.4\bin\
+start-process "C:\Program Files\GrafanaLabs\grafana\bin\grafana-cli.exe" -ArgumentList @('plugins','install','grafana-piechart-panel') -WorkingDirectory 'C:\Program Files\GrafanaLabs\grafana\bin'
 
