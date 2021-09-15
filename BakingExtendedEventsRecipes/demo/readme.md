@@ -1,4 +1,4 @@
-# Demos for SQLBits 2020 session "Baking Extended Events Recipes Without Breaking a Sweat"
+# Demos for the session "Baking Extended Events Recipes Without Breaking a Sweat"
 
 For each recipe you need:
 
