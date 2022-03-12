@@ -1,0 +1,12 @@
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.WorkloadDetails"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.Applications"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.Databases"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.Hosts"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.Logins"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.Intervals"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.NormalizedQueries"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.PerformanceCounters"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.WaitStats"
+sqlcmd -S(local)\SQLEXPRESS -dWorkloadTools -E -Q "DROP TABLE IF EXISTS analysis.Errors"
+
+"%programfiles%\WorkloadTools\sqlworkload.exe" --File "%~dp0\01_capture.json"

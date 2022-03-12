@@ -1,0 +1,33 @@
+{
+    "Controller": {
+
+        "Listener":
+        {
+            "__type": "ExtendedEventsWorkloadListener",
+            "ConnectionInfo":
+            {
+                "ServerName": "SQLCSRV04\\SQL2017"
+            },
+            "TimeoutMinutes": 10
+            // Filters for the workload
+            // "DatabaseFilter": "DS3",
+            // "ApplicationFilter" : "SomeAppName",
+            // "HostFilter" : "MyComputer",
+            // "LoginFilter": "sa"
+        },
+
+        "Consumers": 
+        [
+            {
+                "__type": "AnalysisConsumer",
+                "ConnectionInfo": {
+                    "ServerName": "(local)\\SQLEXPRESS",
+                    "DatabaseName": "WorkloadTools",
+                    "SchemaName": "analysis"
+                },
+                "UploadIntervalSeconds": 60
+            }
+        ]
+
+    }
+}

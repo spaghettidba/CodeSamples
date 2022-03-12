@@ -1,0 +1,1 @@
+"%programfiles%\WorkloadTools\workloadviewer.exe" --BaselineServer (local)\SQLEXPRESS --BaselineDatabase WorkloadTools --BaselineSchema analysis_demo
