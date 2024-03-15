@@ -1,0 +1,27 @@
+{
+    "Controller": {
+
+        "Listener":
+        {
+            "__type": "ExtendedEventsWorkloadListener",
+            "ConnectionInfo":
+            {
+                "ServerName": "SQLCSRV04\\SQL2017"
+            }
+        },
+
+        "Consumers":
+        [
+            {
+                "__type": "AnalysisConsumer",
+                "ConnectionInfo":
+                {
+                    "ServerName": "(local)",
+                    "DatabaseName": "WorkloadTools",
+                    "SchemaName": "troubleshooting"
+                },
+                "UploadIntervalSeconds": 60
+            }
+        ]
+    }
+}
