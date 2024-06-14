@@ -1,0 +1,35 @@
+{
+    "Controller": {
+
+        "Listener":
+        {
+            "__type": "FileWorkloadListener",
+            "Source": "C:\\demo\\ModernizeWithWorkloadTools\\capture\\sample_SqlWorkload.sqlite",
+            "SynchronizationMode": true
+        },
+
+        "Consumers":
+        [
+            {
+                "__type": "ReplayConsumer",
+                "ConnectionInfo": 
+                {
+                    "ServerName": "spaghettidba.database.windows.net",
+                    "DatabaseName": "DS3",
+                    "UserName": "spaghettidba",
+                    "Password": "uKdtGuLjz9W9FMJTa35Z"
+                }
+            },
+            {
+                "__type": "AnalysisConsumer",
+                "ConnectionInfo": 
+                {
+                    "ServerName": "SQL2019",
+                    "DatabaseName": "SqlWorkload03",
+                    "SchemaName": "capture"
+                },
+                "UploadIntervalSeconds": 60
+            }
+        ]
+    }
+}

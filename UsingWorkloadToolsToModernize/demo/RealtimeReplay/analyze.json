@@ -1,0 +1,31 @@
+{
+    "Controller": {
+
+        "Listener":
+        {
+            "__type": "ExtendedEventsWorkloadListener",
+            "ConnectionInfo":
+            {
+                "ServerName": "spaghettidba.database.windows.net",
+                "DatabaseName": "DS3",
+                "UserName": "spaghettidba",
+                "Password": "uKdtGuLjz9W9FMJTa35Z"
+            },
+            "FileTargetPath": "https://spaghettidba.blob.core.windows.net/xecontainer/SqlWorkload.xel"
+        },
+
+        "Consumers":
+        [
+            {
+                "__type": "AnalysisConsumer",
+                "ConnectionInfo": 
+                {
+                    "ServerName": "SQL2019",
+                    "DatabaseName": "SqlWorkload04",
+                    "SchemaName": "replay"
+                },
+                "UploadIntervalSeconds": 60
+            }
+        ]
+    }
+}

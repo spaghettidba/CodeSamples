@@ -1,0 +1,33 @@
+{
+    "Controller": {
+
+        "Listener":
+        {
+            "__type": "ExtendedEventsWorkloadListener",
+            "ConnectionInfo":
+            {
+                "ServerName": "SQL2016"
+            },
+            "DatabaseFilter": "DS3",
+            "TimeoutMinutes": 60
+        },
+
+        "Consumers":
+        [
+            {
+                "__type": "AnalysisConsumer",
+                "ConnectionInfo": 
+                {
+                    "ServerName": "SQL2019",
+                    "DatabaseName": "SqlWorkload02",
+                    "SchemaName": "capture"
+                },
+                "UploadIntervalSeconds": 60
+            },
+            {
+                "__type": "WorkloadFileWriterConsumer",
+                "OutputFile": "C:\\demo\\ModernizeWithWorkloadTools\\capture\\SqlWorkload.sqlite"
+            }
+        ]
+    }
+}

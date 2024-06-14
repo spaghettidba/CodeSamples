@@ -1,0 +1,1 @@
+"%programfiles%\workloadtools\WorkloadViewer" --BaselineServer SQL2019 --BaselineDatabase SqlWorkload_DEMO --BaselineSchema baseline --BenchmarkServer SQL2019 --BenchmarkDatabase SqlWorkload_DEMO --BenchmarkSchema replay

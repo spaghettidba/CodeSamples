@@ -1,0 +1,70 @@
+2023-11-14 07:47:30.0062 - Info - SqlWorkload.Program : Reading configuration from 'C:\demo\ModernizeWithWorkloadTools\Replay\replay.json'
+2023-11-14 07:47:30.2094 - Info - WorkloadTools.Listener.File.FileWorkloadListener : The source file contains 40519 events
+2023-11-14 07:47:30.2407 - Info - WorkloadTools.Listener.File.FileWorkloadListener : Reading the full data for every event that matches filters. This may take awhile on large trace files please be patient
+2023-11-14 07:47:30.3031 - Info - WorkloadTools.WorkloadController : Listener of type "FileWorkloadListener" initialized correctly
+2023-11-14 07:47:30.3188 - Info - WorkloadTools.WorkloadController : Event collection starts at 11/14/2023 7:47:30 AM
+2023-11-14 07:47:30.3344 - Info - WorkloadTools.WorkloadController : Waiting for events
+2023-11-14 07:47:30.9437 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:30.9906 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 25 rows aggregated
+2023-11-14 07:47:31.0062 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 20 rows written
+2023-11-14 07:47:31.0687 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:47:31.1781 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:31.2094 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 272 rows aggregated
+2023-11-14 07:47:31.2094 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 130 rows written
+2023-11-14 07:47:31.2563 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:47:31.5531 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:31.6000 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 3383 rows aggregated
+2023-11-14 07:47:31.6156 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1079 rows written
+2023-11-14 07:47:31.7250 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:47:31.9750 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:32.0063 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 3504 rows aggregated
+2023-11-14 07:47:32.0219 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1139 rows written
+2023-11-14 07:47:32.0532 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:47:32.3500 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:32.3969 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 3593 rows aggregated
+2023-11-14 07:47:32.4125 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1150 rows written
+2023-11-14 07:47:32.4907 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:47:32.6625 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:32.6937 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 2103 rows aggregated
+2023-11-14 07:47:32.7094 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 737 rows written
+2023-11-14 07:47:33.0219 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:33.0688 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 3679 rows aggregated
+2023-11-14 07:47:33.0844 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1166 rows written
+2023-11-14 07:47:33.1469 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:47:33.3656 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:33.3969 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 2951 rows aggregated
+2023-11-14 07:47:33.4125 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 966 rows written
+2023-11-14 07:47:33.4750 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:47:33.6157 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:33.6313 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1512 rows aggregated
+2023-11-14 07:47:33.6469 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 560 rows written
+2023-11-14 07:47:33.7094 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:47:34.8344 - Info - SqlWorkload.Program : Controller stopped.
+2023-11-14 07:47:34.8812 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:47:34.9750 - Info - SqlWorkload.Program : Controller disposed.
+2023-11-14 07:50:35.1743 - Info - SqlWorkload.Program : Reading configuration from 'C:\demo\ModernizeWithWorkloadTools\Replay\replay.json'
+2023-11-14 07:50:35.3773 - Info - WorkloadTools.Listener.File.FileWorkloadListener : The source file contains 40519 events
+2023-11-14 07:50:35.4242 - Info - WorkloadTools.Listener.File.FileWorkloadListener : Reading the full data for every event that matches filters. This may take awhile on large trace files please be patient
+2023-11-14 07:50:35.4868 - Info - WorkloadTools.WorkloadController : Listener of type "FileWorkloadListener" initialized correctly
+2023-11-14 07:50:35.5024 - Info - WorkloadTools.WorkloadController : Event collection starts at 11/14/2023 7:50:35 AM
+2023-11-14 07:50:35.5180 - Info - WorkloadTools.WorkloadController : Waiting for events
+2023-11-14 07:50:35.8617 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (0 rows)
+2023-11-14 07:50:35.8930 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 0 rows aggregated
+2023-11-14 07:50:35.9086 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 0 rows written
+2023-11-14 07:50:36.4086 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:50:36.4711 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1518 rows aggregated
+2023-11-14 07:50:36.4868 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 570 rows written
+2023-11-14 07:50:36.5962 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:50:36.9242 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:50:36.9711 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 4613 rows aggregated
+2023-11-14 07:50:37.0024 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1419 rows written
+2023-11-14 07:50:37.1274 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Performance counters written
+2023-11-14 07:50:37.2523 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:50:37.2679 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1227 rows aggregated
+2023-11-14 07:50:37.2836 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 470 rows written
+2023-11-14 07:50:37.4403 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:50:37.4711 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 1203 rows aggregated
+2023-11-14 07:50:37.4867 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : 450 rows written
+2023-11-14 07:50:39.3774 - Info - SqlWorkload.Program : Controller stopped.
+2023-11-14 07:50:39.4398 - Info - WorkloadTools.Consumer.Analysis.WorkloadAnalyzer : Summary info written (1 rows)
+2023-11-14 07:50:39.5336 - Info - SqlWorkload.Program : Controller disposed.

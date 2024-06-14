@@ -1,0 +1,29 @@
+{
+    "Controller": {
+
+        "Listener":
+        {
+            "__type": "ExtendedEventsWorkloadListener",
+            "ConnectionInfo":
+            {
+                "ServerName": "SQL2016"
+            },
+            "DatabaseFilter": "DS3",
+            "TimeoutMinutes": 60
+        },
+
+        "Consumers":
+        [
+            {
+                "__type": "AnalysisConsumer",
+                "ConnectionInfo": 
+                {
+                    "ServerName": "SQL2019", 
+                    "DatabaseName": "SqlWorkload01",
+                    "SchemaName": "capture"
+                },
+                "UploadIntervalSeconds": 60
+            }
+        ]
+    }
+}

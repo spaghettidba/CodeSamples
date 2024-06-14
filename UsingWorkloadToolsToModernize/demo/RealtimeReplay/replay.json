@@ -1,0 +1,39 @@
+{
+    "Controller": {
+
+        "Listener":
+        {
+            "__type": "ExtendedEventsWorkloadListener",
+            "ConnectionInfo":
+            {
+                "ServerName": "SQL2016",
+                "DatabaseName": "master"
+            },
+            "DatabaseFilter": "DS3"
+        },
+
+        "Consumers":
+        [
+            {
+                "__type": "ReplayConsumer",
+                "ConnectionInfo": 
+                {
+                    "ServerName": "spaghettidba.database.windows.net",
+                    "DatabaseName": "DS3",
+                    "UserName": "spaghettidba",
+                    "Password": "uKdtGuLjz9W9FMJTa35Z"
+                }
+            },
+            {
+                "__type": "AnalysisConsumer",
+                "ConnectionInfo": 
+                {
+                    "ServerName": "SQL2019",
+                    "DatabaseName": "SqlWorkload04",
+                    "SchemaName": "capture"
+                },
+                "UploadIntervalSeconds": 60
+            }
+        ]
+    }
+}
